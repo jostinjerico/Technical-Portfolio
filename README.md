@@ -17,8 +17,11 @@ Email : jostinjerico@gmail.com
 
 ※ 심사항목
 No.	심사항목	내용	Link
+
 1	데이터사이언스 공통	Python, SQL, R, Java, Scala, Go 등 데이터 처리 언어 활용 능력	link
+
 2	데이터 수집 및 정제	Web crawler, Scraping, Open API 등을 활용한 데이터 수집 능력 여부	link
+
 3	데이터 시각화	R, Python, Tableau, Power BI 등을 활용한 데이터 시각화 능력	link
 
 | No. | 심사항목 | 내용 | Link |
