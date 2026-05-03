@@ -1,0 +1,67 @@
+{
+    "name": "Profile Card",    
+    "author": {
+        "name": "Josue Obregon",
+        "affiliation": "SeoulTech",
+        "profile": "Researcher"
+    },
+    "expertise levels":[
+        {
+            "level": "0",
+            "name": "Novice",
+            "description": "No knowledge whatsoever of the topic. Operate by using context-free features and rules."
+        },
+        {
+            "level": "1",
+            "name": "Advanced Beginner",
+            "description": "Understand the basics of the topic. Understand the basics of the context. Use more sophisticated rules that are situational."
+        },
+        {
+            "level": "2",
+            "name": "Competent",
+            "description": "Clear understanding of the topic and its context. Posses a hierarchical procedure for making decisions. Is able to solve problems, but slow reasoning."
+        },
+        {
+            "level": "3",
+            "name": "Expert",
+            "description": "Clear understanding of the topic and its context. Posses a hierarchical procedure for making decisions. Is able to quickly solve problems. It can detect new problems and create new ideas by connecting past knowledge and experience"
+        }
+    ],
+    "profiles":
+    [
+        {
+            "name": "Operator",
+            "technical knowldge on predictive model level": "0",
+            "techical domain knowldege level": "3",
+            "managerial domain knowledge level": "0",
+            "purpose of using model": 
+            [
+                "Understand most influential manufacturing process conditions to prevent defects at the operations level. ",
+                "Understand most influential manufacturing process conditions that lead to defects for proactively planning machine maintenance"
+            ]
+        },
+        {
+            "name": "Manager",
+            "technical knowldge on predictive model level": "1",
+            "techical domain knowldege level": "0",
+            "managerial domain knowledge level": "3",
+            "purpose of using model": 
+            [
+                "Get information for preparing reports and taking decisions. Information such as: defect rate, process conditions that lead to defects, process conditions that lead to normal products."
+            ]
+        },
+        {
+            "name": "Data Scientist",
+            "technical knowldge on predictive model level": "3",
+            "techical domain knowldege level": "1",
+            "managerial domain knowledge level": "0",
+            "purpose of using model": 
+            [
+                "Evaluate performance of predictive model.",
+                "Get technical information such as probility density functions of the predictive model",
+                "Get feature importance of the predictive model."
+            ]
+        }
+    ]
+    
+}

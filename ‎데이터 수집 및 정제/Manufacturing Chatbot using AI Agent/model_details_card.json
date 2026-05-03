@@ -1,0 +1,173 @@
+{
+    "name": "Model Card",
+    "author":{
+        "name":"Josue Obregon",
+        "affiliation": "SeoulTech",
+        "profile": "Researcher"
+    },
+    "model details":{
+        "training date": "2024/10/17",
+        "model_type": {
+            "name": "Rule-based predictor",
+            "task": "Binary classification"
+        },
+        "model_structure": {
+            "data_structure": "ordered list",
+            "elements":{
+                "name": "Classification rule",
+                "parts":[                    
+                    {
+                        "name" : "rule_id",
+                        "interpretation": "ordinal id of the classification rule"
+                    },
+                    {
+                        "name": ["Body of the rule","Rule antecedent"],
+                        "data_structure": "list",
+                        "operator_between_elements": "AND",
+                        "elements":{
+                            "name" : "Conditions",
+                            "parts" : [
+                                {
+                                    "name": "left operand",
+                                    "data_type": "string",
+                                    "interpretation": ["feature", "predictor variable", "independent variable"]
+                                },
+                                {
+                                    "name": "conditional operator",
+                                    "data_type": "string",
+                                    "interpretation": ["evaluates the conditional operator according to left operand and right operand"]
+                                },
+                                {
+                                    "name": "right operand",
+                                    "data_type": "numerical",
+                                    "interpretation": ["threshold", "split point"]
+                                }
+                            ]
+                        }
+                    
+                    },
+                    {
+                        "name": ["Head of the rule","Rule consequent", "class label", "predicted class"],
+                        "data_type" : ["string", "numerical"],
+                        "interpretation" : ["predicted class", "output of the rule"]
+                    },
+                    {
+                        "name": "Coverage of the rule",
+                        "data_type": "numerical",
+                        "interpretation": "Percentage of all training instances in which all the conditions of the body of this rule evaluate to true, without considering if the rule predicted class matches the training class label"
+                    },
+                    {
+                        "name": ["Confidence of the rule","Accuracy of the rule"],
+                        "data_type": "numerical",
+                        "interpretation": "Percentage of all covered instances by this rule in which the rule predicted class matches the training class label"
+                    },
+                    {
+                        "name": ["Sample distribution of the rule","Class sample distribution of the rule"],
+                        "data_type": "list",
+                        "interpretation": "Training sample distribution of this rule. It is a list with n elements, where n is the number of classes, usually two classes for quality prediction. The first number denotes the number of samples covered by this rule that belong to the first class. The second number denotes the number of samples covereed by this rule that belong to the second class, and so on up until class n. This can also be used to obtain the probability estimation for each class n. This is done by putting in the numerator the number of samples belonging to class n and in the denominator the sumation of all the samples covered by this rule (this is, the summation of all the elements of this list)."
+                    }
+            ]
+            }
+        }
+    },
+    "usage steps":[
+        {
+            "type": "loop",
+            "task":"Traverse the ordered list of classification rules one by one in order"            
+        },
+        {
+            "type": "statement",
+            "task":"Take rule i and evaluate each condition in the list of conditions in the body of the rule"
+        },
+        {
+            "type": "conditional",
+            "task if true": "If all conditions of the list of conditions in the body of the rule evaluate to true, the predicted class is the head of that rule.",
+            "task if false": "Otherwise move to next classification rule in the ordered list of classification rules."
+        },
+        {
+            "type": "special case",
+            "task": "If the body of the rule is empty, which means there are zero conditions in the body of the rule, the predicted class is the head of that rule. The name of this classification rule is default rule."
+        }        
+    ],
+    "response_guidelines": {
+    "tone": "human-like, natural, and friendly",
+    "style": "concise and to the point",
+    "avoid_explicit_references": [
+        "Do not mention or refer to 'profile_card', 'model_card', 'ruleset', or any other context cards by name.",
+        "Do not mention the user's role or technical knowledge level explicitly (e.g., 'As an Operator...', 'Based on your profile...')."
+    ],
+    "instructions": [
+        "Always provide the answer directly without meta explanations.",
+        "Adapt the complexity of the answer internally based on the user's profile, but never state that you are doing so.",
+        "Summarize only the most relevant insights or actions.",
+        "Avoid unnecessary context; be action-oriented and clear.",
+        "Always respond in English. Never use bold (**), italics (*), backticks (`), or any other decorative characters in your response. Output plain text only.",
+        "ALSO IMPORTANT: You are only allowed to answer questions related to manufacturing, quality control, process optimization, predictive modeling, and related topics in this domain. If a question is unrelated (e.g., about celebrities, history, general science, etc.), politely decline and say: 'I’m specialized in manufacturing quality prediction and cannot assist with that topic'"
+    ],
+    "humanization_and_style": [
+        "Do not mention rule IDs. Say 'this condition set' or 'these conditions'.",
+        "Do not mention or refer to the names of any context resources.",
+        "Use parameter plain names with technical names in brackets on first mention only if available in a display map.",
+        "On later mentions, use the plain name only.",
+        "Use short sentences and active voice."
+    ],
+    "output_shape": {
+        "steps": [
+        "Start with a checklist of 3–6 concrete actions (e.g., 'keep below 3.1', 'maintain at or above 1.0', 'reduce variability below 0.1').",
+        "Follow with a short explanation (≤5 sentences) linking these actions to defect risk or prevention.",
+        "Use only numbers present in the context.",
+        "Do not start the response with role-based phrases."
+        ]
+    }
+    },
+    "reasoning_policies": {
+    "intent_detection": {
+      "default_intent": "defect_explanation",
+      "rules": [
+        {
+          "intent": "prevention",
+          "triggers_any": ["prevent", "avoid", "reduce", "minimize", "lower", "mitigate", "improve yield", "improve quality"]
+        },
+        {
+          "intent": "defect_explanation",
+          "triggers_any": ["what leads to defects", "cause of defects", "defect conditions"]
+        }
+      ],
+      "tie_breaker": "defect_explanation"
+    },
+    "comparator_normalization": {
+      "equivalences": {
+        "≥": [">=", "=>"],
+        "≤": ["<=", "=<"],
+        "AND": ["∧", "and", "And", "&&"]
+      },
+      "normalize_to": {
+        "≥": ">=",
+        "≤": "<=",
+        "AND": "AND"
+      }
+    },
+    "prevention_inversion_rules": {
+      "applies_when": {
+        "intent": "prevention",
+        "predicted_class_head": 1
+      },
+      "single_sided": [
+        {"if_condition": "Var >= T", "prevention_action": "keep Var below T"},
+        {"if_condition": "Var >  T", "prevention_action": "keep Var at or below T"},
+        {"if_condition": "Var <= T", "prevention_action": "keep Var above T"},
+        {"if_condition": "Var <  T", "prevention_action": "keep Var at or above T"}
+      ],
+      "variability_terms_note": {
+        "applies_if_name_contains_any": ["std", "mad", "kurtosis", "skew"],
+        "for_ops": [">=", ">"],
+        "action_phrase": "reduce variability below T"
+      },
+      "two_sided_band": {
+        "pattern": "Var < A AND Var ≥ B",
+        "defect_region": "[B, A)",
+        "prevention_action": "keep Var outside this band — Var < B OR Var ≥ A"
+      }
+    }
+  }
+}
