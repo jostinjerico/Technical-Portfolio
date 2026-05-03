@@ -45,6 +45,10 @@ Processed outputs are stored as lightweight CSV/JSON files for efficient downstr
 - Dashboard for aggregated funding patterns  
 - Multi-level analysis (donor, sector, recipient)  
 - Interactive filtering and project-level exploration
+![UNDP Dashboard](./public/images/UNDP%20Dashboard.png)
+![Portfolio Deepdive](./public/images/Portfolio%20Deepdive.png)
+![By Sector](./public/images/By%20Sector.png)
+![Top Recipients](./public/images/Top%20Recipients.png)
 
 
 ## 7. Tech Stack
