@@ -12,17 +12,17 @@ This repository presents projects focused on advanced data analysis and insight 
 ## Project List
 The repository includes the following projects:
 
-### [Haiti – Data Analysis] (./Haiti - Data Analysis)
+### [Haiti – Data Analysis](./Haiti%20-%20Data%20Analysis)
 - Exploratory analysis of crisis-related datasets  
 - Temporal, categorical, and spatial pattern analysis  
 - Visualization of humanitarian needs and incident distribution  
 
-### [UNDP Dashboard] (./UNDP Dashboard)
+### [UNDP Dashboard](./UNDP%20Dashboard)
 - Data analysis on development aid datasets  
 - Multi-level analysis (donor, sector, recipient)  
 - Visualization of funding patterns and integration indicators  
 
-### [Manufacturing Process Analytics – EDA and Defect Detection](../데이터 수집 및 정제/Manufacturing Process Analytics - Preprocessing and EDA)
+### [Manufacturing Process Analytics – EDA and Defect Detection](../데이터%20활용%20및%20분석/Manufacturing%20Process%20Analytics%20-%20Preprocessing%20and%20EDA)
 - Exploratory data analysis of manufacturing process data  
 - Statistical defect detection using threshold-based labeling  
 - Feature impact analysis and process parameter evaluation  
