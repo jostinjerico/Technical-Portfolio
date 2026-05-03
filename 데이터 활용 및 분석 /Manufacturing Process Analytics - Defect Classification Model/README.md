@@ -37,6 +37,16 @@ This project develops a machine learning model to classify defective products in
   - KNN with Spline Transformation  
 
 ## 6. Results
+
+### F1 Score Comparison
+![F1 Comparison](./images/F1-comparison.png)
+
+### AUC Comparison
+![AUC Comparison](./images/AUC-comparison.png)
+
+### Model Performance (Radar Chart)
+![Radar Chart](./images/radal-chart.png)
+
 - Best Model: KNN-Spline  
 - Accuracy: 0.958  
 - Precision: 0.50  
@@ -52,6 +62,8 @@ This project develops a machine learning model to classify defective products in
 | Random Forest | 0.618 | 0.076 | 0.727 | 0.138 | 0.693 |
 
 ## 7. XAI Analysis
+### SHAP Feature Importance
+![SHAP Analysis](./images/SHAP-defect-manufacturing.png)
 - **SHAP:** Used to identify process variables influencing defect predictions  
 - Key influential variables include:
   - `CV_020`
