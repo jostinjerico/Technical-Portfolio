@@ -13,14 +13,14 @@ This repository presents projects focused on data collection, structuring, and p
 The repository includes the following projects:
 
 ### Manufacturing Chatbot using AI Agent
-- Structured domain knowledge into JSON-based datasets  
-- Implemented data collection and transformation for AI agent retrieval  
-- Built vector-based indexing for efficient context retrieval  
+- Collected and structured domain knowledge into JSON-based datasets
+- Performed data preprocessing and transformation for AI agent retrieval
+- Built vector-based indexing to enable efficient context-aware data access
 
 ### Manufacturing Process Analytics – Preprocessing and EDA
-- Performed data cleaning and feature engineering on manufacturing data  
-- Applied statistical labeling for defect detection  
-- Conducted exploratory data analysis to understand process behavior  
+- Collected and cleaned manufacturing process data to ensure data quality
+- Applied feature engineering and statistical labeling for defect detection
+- Conducted exploratory analysis to derive insights on process behavio
 
 ## Reproducibility
 All projects are designed to support reproducibility through:
