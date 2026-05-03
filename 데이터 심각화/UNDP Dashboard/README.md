@@ -19,11 +19,21 @@ Features include:
 - Gender and climate indicators  
 
 ## 4. Data Processing
-- Data cleaning and missing value handling  
-- Cross-dataset integration  
-- Feature engineering for integration indicators  
-- NLP-based processing of project descriptions  
-- Structured transformation for analysis and visualization  
+The project implements a production-style preprocessing pipeline:
+
+- Cleaning and standardizing funding columns (handling missing, text-based values)
+- Filtering invalid and unspecified projects
+- Normalizing categorical and temporal features
+- Collapsing data to **project–year–donor level** for consistency
+- Feature engineering:
+    - Integration buckets (Integrated / Gender / Climate / Neither)
+    - Aggregated funding metrics
+- Large-scale aggregation:
+    - Yearly funding trends
+    - Donor, sector, and recipient distributions
+- Data quality and completeness validation
+
+Processed outputs are stored as lightweight CSV/JSON files for efficient downstream use
 
 ## 5. Analytical Approach
 - Exploratory Data Analysis (EDA)  
@@ -34,7 +44,8 @@ Features include:
 ## 6. Visualization
 - Dashboard for aggregated funding patterns  
 - Multi-level analysis (donor, sector, recipient)  
-- Interactive filtering and project-level exploration  
+- Interactive filtering and project-level exploration
+
 
 ## 7. Tech Stack
 Python, Pandas, NumPy, NLP (TF-IDF), Visualization Libraries
