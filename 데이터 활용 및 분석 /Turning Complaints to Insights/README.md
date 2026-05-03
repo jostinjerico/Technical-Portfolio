@@ -54,7 +54,7 @@ Pipeline includes preprocessing + model training with time-series cross-validati
 - Cross-validation for stability  
 
 ## 10. How to Run
-Open the notebook in your preferred environment (Colab, Jupyter, VS Code) and run all cells sequentially.
+Open the notebook in your preferred environment (Colab, Jupyter, VS Code) and run all cells sequentially. Use complaints_50k.csv for the dataset used in the experiments.
 
 ## 11. Tech Stack
 Python, scikit-learn, XGBoost, SHAP, NLP (TF-IDF, VADER), BERTopic
