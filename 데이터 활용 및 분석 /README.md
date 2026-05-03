@@ -12,22 +12,22 @@ This repository presents a collection of machine learning projects demonstrating
 ## Project List
 The repository includes the following projects:
 
-### Fingers Movement
+### [Fingers Movement](./Fingers%20Movement)
 - EEG-based time-series classification using LSTM  
 - Explainable AI (XAI) analysis for temporal feature importance  
 - Reproducible pipeline for preprocessing, training, and evaluation  
 
-### Turning Complaints into Insights
+### [Turning Complaints into Insights](./Turning%20Complaints%20to%20Insights)
 - NLP-based feature extraction using TF-IDF and sentiment analysis  
 - Machine learning models for dispute prediction  
 - Explainable AI (SHAP) for model interpretability  
 
-### Wafer Analysis
+### [Wafer Analysis](./Wafer%20Analysis)
 - CNN-based classification of semiconductor wafer signals  
 - Time-series modeling with feature preprocessing  
 - XAI techniques for interpreting model behavior  
 
-### Injection Molding Defect Classification
+### [Injection Molding Defect Classification](./Injection%20Molding%20Defect%20Classification)
 - Machine learning pipeline for defect detection using process data  
 - Statistical labeling using SPC-based pseudo-labeling (±2σ rule) :contentReference[oaicite:0]{index=0}  
 - Model comparison across Logistic Regression, KNN, Decision Tree, Random Forest, and XGBoost  
