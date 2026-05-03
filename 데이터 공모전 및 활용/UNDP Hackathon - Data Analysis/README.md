@@ -1,4 +1,4 @@
-# UNDP Data Analysis Challenge 2025: Gender × Climate Integration
+# UNDP Hackathon: Data Analysis on Gender × Climate Integration
 
 ## 1. Overview
 This project develops a reproducible data analytics pipeline to analyze gender–climate integration in Official Development Assistance (ODA). It integrates multi-source datasets and applies statistical modeling, network analysis, and machine learning to uncover cross-sector funding patterns.
