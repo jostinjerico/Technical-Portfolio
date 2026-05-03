@@ -1,4 +1,4 @@
-#Haiti Earthquake Crisis Analytics
+# Haiti Earthquake Crisis Analytics
 
 ![Banner](images/haiti_map.png)
 
@@ -42,7 +42,7 @@ Understand how crisis reports evolve across:
 ## Takeaways
 - The findings highlight the critical importance of addressing basic needs in the immediate aftermath of a disaster, followed by a shift toward long-term recovery requirements. The spatial concentration of reports further emphasizes the role of geographic proximity in crisis impact assessment.
 
-##Limitations
+## Limitations
 - The dataset contains a large proportion of unverified reports  
 - Limited size restricts advanced predictive modeling  
 - Data inconsistencies arise from multiple reporting sources  
