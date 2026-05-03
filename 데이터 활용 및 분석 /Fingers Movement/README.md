@@ -1,7 +1,7 @@
 # Finger Movement Classification with Explainable AI Analysis
 
 ## 1. Overview
-This project develops a machine learning model to classify finger movement intention (left vs. right hand) using EEG time-series data. Explainable AI (XAI) techniques are applied to interpret model decisions and identify important temporal and feature patterns.
+This project develops a machine learning model to classify finger movement intention (left vs. right hand). Explainable AI (XAI) techniques are applied to interpret model decisions and identify important temporal and feature patterns.
 
 ## 2. Objective
 - Classify finger movement from EEG signals  
@@ -55,7 +55,7 @@ This project develops a machine learning model to classify finger movement inten
 
 ## 10. How to Run
 Open the notebook in your preferred environment (e.g., Google Colab, Jupyter Notebook, or Visual Studio Code) and execute all cells sequentially.  
-All required steps—including data download, preprocessing, model training, evaluation, and XAI analysis—are included within the notebook.
+All required steps including data download, preprocessing, model training, evaluation, and XAI analysis are included within the notebook.
 
 ## 11. Tech Stack
 Python, TensorFlow/Keras, scikit-learn, sktime, SHAP, NumPy, Pandas
