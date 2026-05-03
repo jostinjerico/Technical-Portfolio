@@ -1,4 +1,4 @@
-# 데이터 활용 및 분석
+# 데이터 활용 및 분석: 머신러닝 라이브러리를 이용한 재현 가능한 개발 결과물 공개 여부
 
 ## Overview
 This repository presents a collection of machine learning projects demonstrating data utilization, analysis, and reproducible development practices. Each project applies established machine learning libraries to real-world datasets, with a focus on transparency, interpretability, and end-to-end reproducibility.
