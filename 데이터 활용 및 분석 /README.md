@@ -27,12 +27,9 @@ The repository includes the following projects:
 - Time-series modeling with feature preprocessing  
 - XAI techniques for interpreting model behavior  
 
-### [Injection Molding Defect Classification](./Injection%20Molding%20Defect%20Classification)
-- Machine learning pipeline for defect detection using process data  
-- Statistical labeling using SPC-based pseudo-labeling (±2σ rule) :contentReference[oaicite:0]{index=0}  
-- Model comparison across Logistic Regression, KNN, Decision Tree, Random Forest, and XGBoost  
-- Feature engineering and imbalance handling (oversampling)  
-- Model evaluation using F1-score and AUC for imbalanced classification  
+### [Manufacturing Process Analytics – Defect Classification Model](./Manufacturing%20Process%20Analytics%20-%20Defect%20Classification%20Model)
+- Machine learning pipeline for injection molding defect classification   
+- Model comparison across Logistic Regression, KNN, Decision Tree, Random Forest, and XGBoost   
 
 ## Reproducibility
 All projects are designed to support reproducibility through:
