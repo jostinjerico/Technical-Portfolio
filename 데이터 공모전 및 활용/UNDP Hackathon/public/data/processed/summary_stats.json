@@ -1,0 +1,40 @@
+{
+  "totalRecords": 571379,
+  "totalProjects": 320756,
+  "totalFundingM": 1094908.9,
+  "totalFundingB": 1094.91,
+  "integratedFundingM": 197773.68,
+  "integratedFundingB": 197.77,
+  "integratedProjectCount": 84259,
+  "integratedRate": 0.1475,
+  "integratedFundingShare": 0.1806,
+  "yearRange": [
+    2014,
+    2023
+  ],
+  "uniqueDonors": 118,
+  "uniqueRecipients": 171,
+  "uniqueSectors": 42,
+  "bucketDistribution": {
+    "Integrated": {
+      "count": 84259,
+      "fundingM": 197773.68,
+      "share": 0.1475
+    },
+    "Gender Only": {
+      "count": 401977,
+      "fundingM": 678480.99,
+      "share": 0.7035
+    },
+    "Climate Only": {
+      "count": 85143,
+      "fundingM": 218654.23,
+      "share": 0.149
+    },
+    "Neither": {
+      "count": 0,
+      "fundingM": 0.0,
+      "share": 0.0
+    }
+  }
+}

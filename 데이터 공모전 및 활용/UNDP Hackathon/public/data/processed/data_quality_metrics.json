@@ -1,0 +1,10 @@
+{
+  "totalRecords": 571379.0,
+  "genderMarkerCoverage": 0.8509868231069045,
+  "climateMarkerCoverage": 0.2964792195722979,
+  "missingDonorName": 0.0,
+  "missingRecipientName": 0.0,
+  "missingSectorName": 0.0,
+  "zeroFundingProjects": 36895.0,
+  "completenessScore": 1.0
+}

@@ -1,0 +1,172 @@
+countryName,genderDonors,climateDonors,integratedDonors,totalFunding
+"Bilateral, unspecified",41847,12909,8449,123825.22
+India,10567,3250,2586,66846.87
+Bangladesh,6744,943,1668,42664.02
+Indonesia,4097,1944,1182,32855.12
+Türkiye,2536,893,232,29613.69
+Philippines,3425,927,1183,27172.54
+"Africa, regional",5334,2072,1566,26361.99
+Afghanistan,5354,314,505,23586.72
+Pakistan,5250,728,789,21795.89
+"South of Sahara, regional",6270,1958,2127,20891.47
+Ethiopia,8234,1153,2566,20801.25
+China,3760,2902,559,19074.77
+Ukraine,4456,1078,257,18795.87
+Brazil,3883,1656,1336,16524.8
+Kenya,6969,1601,2281,16267.73
+Egypt,3377,986,383,15758.8
+Morocco,4700,1005,673,15511.18
+Viet Nam,3709,1796,918,14923.55
+Colombia,7172,1208,1126,14875.32
+Mexico,2668,921,467,14314.27
+Uzbekistan,1521,295,155,13854.24
+Jordan,3516,734,465,13463.58
+Nigeria,4955,516,605,12887.09
+Tanzania,6262,1028,1722,12765.08
+Democratic Republic of the Congo,7125,617,1224,11989.27
+Mozambique,5902,1046,1746,11173.54
+"Asia, regional",3166,1215,1161,10424.55
+"Europe, regional",3314,735,543,10232.35
+Cambodia,3811,658,943,9991.25
+Myanmar,4745,640,932,9662.15
+West Bank and Gaza Strip,6666,577,691,9295.48
+Argentina,1642,253,244,9273.09
+Tunisia,3097,912,352,9235.77
+Georgia,2757,720,481,8982.41
+Nepal,5511,656,1422,8903.87
+Peru,4869,1330,1573,8769.06
+Uganda,5700,1041,1736,8411.27
+Syrian Arab Republic,3484,34,104,8366.16
+Lebanon,4013,484,271,7935.74
+Serbia,2005,916,258,7827.93
+South Africa,3737,1060,537,7792.02
+Senegal,4898,862,1493,7776.41
+Iraq,2990,181,194,7433.82
+South Sudan,3422,272,437,7381.28
+Yemen,2794,78,176,7328.36
+Sri Lanka,2648,389,315,7265.16
+Somalia,3642,210,796,7248.16
+"America, regional",2312,867,543,7162.74
+Rwanda,3327,498,665,7142.06
+Burkina Faso,4683,666,1458,6894.68
+Mali,5283,468,1435,6760.09
+Ecuador,2619,634,864,6753.82
+Niger,3316,406,859,6565.05
+Angola,1394,136,254,6369.23
+Papua New Guinea,1239,199,213,6257.31
+Malawi,3495,443,817,6076.46
+Zambia,3056,487,896,5713.46
+Ghana,3275,764,728,5662.6
+Kazakhstan,692,279,54,5549.21
+Thailand,1089,335,168,5320.16
+Bolivia,5201,953,1940,5218.88
+El Salvador,3824,341,867,5014.27
+Dominican Republic,1826,301,354,5006.28
+Mongolia,1570,474,208,4557.54
+Sudan,2739,134,291,4322.25
+Honduras,2679,451,967,4254.04
+Côte D'Ivoire,2134,314,258,4236.77
+Cameroon,2974,485,577,4081.64
+Haiti,3025,502,1059,3996.91
+Benin,2233,349,784,3919.36
+Albania,1814,507,334,3748.43
+Madagascar,2462,664,624,3738.8
+Guatemala,5193,429,1133,3727.33
+Paraguay,1440,219,333,3696.95
+Zimbabwe,3556,214,651,3677.65
+Nicaragua,3377,556,998,3628.66
+Burundi,2083,201,529,3474.65
+Panama,783,91,68,3435.67
+Lao People's Democratic Republic,2260,416,523,3368.08
+Moldova,2051,331,225,3345.71
+Azerbaijan,1024,140,55,3144.25
+Chad,2609,315,622,3105.03
+"Middle East, regional",1924,193,203,3070.55
+Costa Rica,823,230,101,3038.22
+Bosnia and Herzegovina,2225,465,275,3008.19
+Tajikistan,1748,325,212,2988.65
+Central African Republic,1997,67,111,2954.53
+North Macedonia,1283,358,200,2901.26
+Armenia,1602,428,208,2792.28
+"South America, regional",1362,624,433,2707.26
+"Caribbean & Central America, regional",1206,510,433,2538.47
+Liberia,2090,171,355,2440.65
+"Oceania, regional",865,473,326,2424.55
+Sierra Leone,2389,185,303,2416.43
+Kosovo*,2243,266,437,2400.59
+Kyrgyzstan,2069,329,157,2386.19
+"North of Sahara, regional",860,224,103,2281.14
+Guinea,1598,76,172,2035.8
+Togo,1569,242,385,1856.48
+"Caribbean, regional",398,166,278,1848.89
+Fiji,888,222,158,1847.5
+"Eastern Africa, regional",719,235,253,1821.63
+Mauritania,1669,166,364,1734.05
+Jamaica,554,85,94,1703.74
+"Western Africa, regional",710,526,270,1649.35
+Timor-Leste,1173,126,190,1521.41
+Namibia,1045,279,353,1517.51
+Solomon Islands,537,125,120,1460.53
+Mauritius,372,121,72,1400.08
+"Central Asia, regional",787,304,236,1396.43
+"Far East Asia, regional",659,399,276,1268.36
+Libya,1051,40,32,1254.11
+Montenegro,684,265,69,1210.6
+Bhutan,585,202,83,1060.4
+Algeria,1356,202,172,1057.69
+Congo,833,135,106,986.67
+Vanuatu,416,146,146,954.63
+Guyana,403,106,54,895
+Belarus,959,171,51,868.15
+"South Asia, regional",741,189,154,855.07
+Cuba,1407,316,422,799.94
+Chile,374,130,32,774.65
+Botswana,616,31,75,763.47
+Guinea Bissau,1214,108,183,676.73
+Djibouti,495,125,92,653.32
+Tonga,327,140,49,629
+Cabo Verde,641,232,125,616.37
+Gambia,806,95,83,601.6
+Kiribati,269,129,72,524.66
+Samoa,417,100,64,516.87
+Venezuela,1054,57,81,514.59
+"South & Central Asia, regional",265,104,98,508.22
+Maldives,521,69,16,492.77
+Lesotho,570,43,91,473.5
+Eswatini,678,68,90,419.38
+Gabon,356,73,17,404.59
+Suriname,263,33,21,391.43
+Comoros,608,88,64,379.06
+Iran,602,162,41,342.19
+"Middle Africa, regional",54,43,38,327.4
+"Central America, regional",335,100,95,301.82
+Micronesia,83,35,31,287.68
+"Southern Africa, regional",245,85,63,284.4
+Montserrat,48,32,11,276.47
+Tuvalu,101,73,42,276.22
+Sao Tome and Principe,485,69,71,257.33
+Eritrea,589,42,88,247.22
+Belize,347,60,34,238.94
+Democratic People's Republic of Korea,255,32,24,231.83
+Palau,80,48,8,209.33
+Nauru,81,53,3,199.86
+Dominica,94,55,41,192.37
+Uruguay,274,35,8,185.62
+Marshall Islands,96,70,19,164.15
+Malaysia,499,206,41,138.64
+Saint Lucia,133,35,40,136.55
+Cook Islands,80,34,1,136
+Turkmenistan,265,33,8,107.26
+Grenada,74,33,8,103.45
+Saint Helena,36,40,0,98.86
+States Ex-Yugoslavia unspecified,43,45,17,79.82
+Saint Vincent and the Grenadines,102,12,69,66.27
+Seychelles,32,13,3,64.67
+Niue,64,23,11,54.14
+Antigua and Barbuda,30,18,9,47.22
+Tokelau,60,14,7,36.47
+Equatorial Guinea,316,23,21,36.33
+"Melanesia, regional",7,19,1,22
+"Micronesia, regional",2,2,0,5.18
+Wallis and Futuna,9,9,1,2.33
+"Polynesia, regional",2,1,2,1.52

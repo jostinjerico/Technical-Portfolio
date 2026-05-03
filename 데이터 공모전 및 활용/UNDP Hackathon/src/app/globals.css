@@ -1,0 +1,369 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+
+/* =========================================================
+   🌍 EcoEquity Design System —  Global Styles
+   ========================================================= */
+
+/* ========= Core Tokens (Light) ========= */
+:root {
+  /* overlay */
+  --overlay-scrim: rgba(255, 255, 255, 0.75);
+  --header-surface: rgba(255,255,255,0.75);
+
+  /* surfaces (RGB triplets) */
+  --page-bg: 255 255 255;           /* #ffffff */
+  --scorecard-pg-bg: 255 255 255;
+  --card-bg: 248 250 252;           /* #f8fafc */
+  --card-border: 0 0 0;           
+  --fg: 15 23 42;                   /* #0f172a */
+  --fg-muted: 71 85 105;            /* #475569 */
+  --card-shadow: 0 20px 60px rgba(0,0,0,0.08);
+
+  --section-band: 246 248 252;      /* a hair darker than page */
+  --ring-weak: 0 0 0;               /* use with /alpha */
+
+  /* semantic brand */
+  --sem-climate: 13 148 136;        /* #0d9488 */
+  --sem-gender: 168 85 247;         /* #a855f7 */
+  --sem-integrated: 4 104 177;      /* #0468B1 */
+  --sem-underserved: 249 115 22;    /* #f97316 */
+
+  /* chart skin */
+  --axis: 71 85 105;                /* #475569 */
+  --grid: 0 0 0;                    /* use small alpha */
+  --tooltip-bg: 15 23 42;           /* #0f172a */
+  --tooltip-text: 255 255 255;
+
+  /* neutral/series */
+  --series-default: 51 153 255;    /* brand sky */
+  --series-contrast: 14 165 233;    /* lighter sky */
+  --series-muted: 0 0 0;            /* black (used with low alpha) */
+
+  --sem-alert: 230 44 23;           /* alert red */
+  --sem-up: 16 185 129;          /* #10b981  emerald */
+  --sem-down: 239 68 68;         /* #ef4444  red */
+
+  /* elevated tints (used in panels/badges) */
+  --panel-elevated: color-mix(in oklab, var(--panel) 88%, var(--accent) 12%);
+  --panel-hover: color-mix(in oklab, var(--panel) 94%, var(--accent) 6%);
+  --chip-bg: color-mix(in oklab, var(--panel) 92%, var(--accent) 8%);
+  --accent-weak: color-mix(in oklab, var(--accent) 15%, transparent);
+
+  /* chip intensities for LIGHT */
+  --chip-alpha: .22;          /* fill strength */
+  --chip-ring-alpha: .45;     /* outline strength */
+  --integrated-text-color: 21 94 117;
+  --gender-text-color: 91 33 182;
+  --climate-text-color: 6 95 70;
+
+  --border: #475569
+
+}
+
+/* ========= Core Tokens (Dark) ========= */
+.dark {
+  --overlay-scrim: rgba(0,0,0,0.6);
+  --header-surface: rgba(0,0,0,0.35);
+
+  /* surfaces */
+  --page-bg: 7 24 35;               /* #071823 */
+  --scorecard-pg-bg: 2 6 23;
+  --card-bg: 16 29 40;              /* rgba(16,29,40,1) */
+  --card-border: 30 152 223;       /* use tiny alpha */
+  --fg: 255 255 255;                /* #ffffff */
+  --fg-muted: 255 255 255;          /* use with /0.6 below */
+  --card-shadow: 0 20px 60px rgba(0,0,0,0.60);
+
+  /* semantic brand (same hues) */
+  --sem-climate: 13 148 136;
+  --sem-gender: 168 85 247;
+  --sem-integrated: 4 104 177;
+  --sem-underserved: 249 115 22;
+
+  /* chart skin */
+  --axis: 255 255 255;
+  --grid: 255 255 255;              /* very low alpha when used */
+  --tooltip-bg: 223 228 234;        /* 0.8 alpha when used */
+  --tooltip-text: 0 0 0;      
+
+  /* neutral/series */
+  --series-default: 23 175 230;
+  --series-contrast: 14 165 233;
+  --series-muted: 148 163 184;      /* slate for dim states */
+
+  --sem-alert: 230 44 23;
+  --sem-up: 16 185 129;
+  --sem-down: 239 68 68;
+
+  --panel-elevated: color-mix(in oklab, var(--panel) 92%, var(--accent) 8%);
+  --chip-bg: color-mix(in oklab, var(--panel) 94%, var(--accent) 6%);
+
+  /* chip intensities for DARK */
+  --chip-alpha: .30;
+  --chip-ring-alpha: .55;
+  --integrated-text-color: 103 232 249;
+  --gender-text-color: 196 181 253;
+  --climate-text-color: 110 231 183;
+
+  --border: #cbd5e1
+}
+
+
+/* ========= Tailwind theme bindings =========
+   These enable utilities like bg-background/80, text-foreground, border, etc.
+*/
+@theme {
+  --color-background: rgb(var(--page-bg));
+  --color-background-muted: rgb(var(--page-bg) / <alpha-value>);
+  --color-foreground: rgb(var(--fg) / <alpha-value>);
+  --color-muted-foreground: rgb(var(--fg-muted) / <alpha-value>);
+
+  /* optional brand exposure to Tailwind utilities */
+  --color-semantic-integrated: rgb(var(--sem-integrated));
+  --color-semantic-genderOnly: rgb(var(--sem-gender));
+  --color-semantic-climateOnly: rgb(var(--sem-climate) );
+  --color-semantic-underserved: rgb(var(--sem-underserved));
+  --color-semantic-alert: rgb(var(--sem-alert));
+
+  --color-semantic-integrated-muted: rgb(var(--sem-integrated) / <alpha-value>);
+  --color-semantic-genderOnly-muted: rgb(var(--sem-gender) / <alpha-value>);
+  --color-semantic-climateOnly-muted: rgb(var(--sem-climate) / <alpha-value>);
+  --color-semantic-underserved-muted: rgb(var(--sem-underserved) / <alpha-value>);
+
+  --color-semantic-alert: rgb(var(--sem-alert) / <alpha-value>);
+
+  --color-card: rgb(var(--card-bg) / <alpha-value>);
+  --color-card-foreground: rgb(var(--fg) / <alpha-value>);
+  --color-border: rgb(var(--card-border) / <alpha-value>);
+  --color-muted:  rgb(var(--card-border) / <alpha-value>);
+}
+
+/* ========= Direct-use aliases (for inline styles/Recharts) ========= */
+:root,
+.dark {
+  /* surfaces */
+  --page-bg-color: rgb(var(--page-bg));
+  --card-bg-color: rgb(var(--card-bg));
+  --card-bg-color-strong: rgb(var(--card-bg)); /* sticky/opaque headers */
+  --card-border-weak: rgb(var(--card-border) / 0.08);
+  --card-shadow-lg: var(--card-shadow);
+
+  --color-border: rgb(var(--card-border) / 0.01);
+  --color-muted:  rgb(var(--card-border) / 0.1);
+
+  /* text */
+  --text-primary: rgb(var(--fg));
+  --text-secondary: rgb(var(--fg-muted) / 0.8); /* ~50–60% of muted fg */
+  --color-muted-foreground: rgb(var(--fg-muted) / 0.55);
+
+
+  /* chart skin */
+  --axis-color: rgb(var(--axis));
+  --grid-weak: rgb(var(--grid) / 0.07);
+  --tooltip-bg-color: rgb(var(--tooltip-bg) / 0.96);
+  --tooltip-fg-color: rgb(var(--fg) / 0.95);
+  --tooltip-text-primary: rgb(var(--tooltip-text));
+
+  /* brand & semantic */
+  --semantic-integrated: rgb(var(--sem-integrated));
+  --semantic-genderOnly: rgb(var(--sem-gender));
+  --semantic-climateOnly: rgb(var(--sem-climate));
+  --semantic-underserved: rgb(var(--sem-underserved));
+  --semantic-alert-color: rgb(var(--sem-alert));
+  --semantic-up: rgb(var(--sem-up));
+  --semantic-down: rgb(var(--sem-down));
+
+  /* neutral chart */
+  --series-default-color: rgb(var(--series-default));
+  --series-contrast-color: rgb(var(--series-contrast));
+  --series-muted-color: rgb(var(--series-muted));
+
+}
+
+/* ========= Base ========= */
+@layer base {
+  /* light universal border + focus outline tuned to brand */
+  
+  * {
+    border-color: rgb(var(--card-border) / 0.16); 
+    outline-color: color-mix(in oklch, var(--card-border) 50%, transparent);
+  }
+
+  html, body {
+    background: var(--page-bg-color);
+    color: var(--text-primary);
+    /* fallback chain: your var(--font-ui) -> Next font var(--font-sans) -> system */
+    font-family: var(--font-ui, var(--font-sans, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Apple Color Emoji, Segoe UI Emoji));
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  p {
+    display: block;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: normal;
+    text-wrap: balance;
+  }
+
+  h1, h2, h3, h4 { font-weight: 700; letter-spacing: -0.01em; }
+}
+
+/* ========= Typography utilities ========= */
+@layer utilities {
+  .type-page-title { font-size: 1.4rem; font-weight: 600; line-height: 1.2; }
+  .type-page-subtitle { font-size: .75rem; font-weight: 400; line-height: 1.4; }
+
+  .type-kpi-label { font-size: 12px; font-weight: 500; line-height: 1.2; }
+  .type-kpi-value { font-size: 1.25rem; font-weight: 600; line-height: 1.2; }
+
+  .type-card-title { font-size: .875rem; font-weight: 600; line-height: 1.3; }
+  .type-card-subtitle { font-size: 11px; font-weight: 400; line-height: 1.4; }
+
+  .type-table-header { font-size: 12px; font-weight: 400; line-height: 1.2; }
+  .type-table-primary { font-size: 12px; font-weight: 500; line-height: 1.3; }
+  .type-table-secondary { font-size: 12px; font-weight: 400; line-height: 1.3; }
+  .text-tertiary { color: var(--text-secondary); }
+
+  .panel {
+    background: var(--card-bg-color-strong);
+    border: 1px solid rgb(var(--card-border) / 0.15);
+    border-radius: 16px;
+    box-shadow: var(--card-shadow-lg);
+  }
+  .type-table-secondary {
+    color: rgb(var(--fg-muted));
+  }
+}
+
+/* ========= Nice-to-have UI utilities (gradients, glass, animations) ========= */
+
+/* Animations */
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(1rem); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
+.animate-fade-in-up { animation: fade-in-up 0.6s ease-out; }
+.animate-gradient { animation: gradient-shift 8s ease infinite; background-size: 200% 200%; }
+
+/* Gradients */
+.bg-gradient-primary { background: linear-gradient(135deg, #10b981 0%, #0d9488 100%); }
+.bg-gradient-secondary { background: linear-gradient(135deg, #a855f7 0%, #a855f7 100%); }
+.bg-gradient-accent { background: linear-gradient(135deg, #0468B1 0%, #0468B1 100%); }
+.bg-gradient-eco {
+  background: linear-gradient(135deg, #10b981 0%, #06b6d4 50%, #a855f7 100%);
+}
+.hover\:bg-gradient-accent:hover {
+    background: linear-gradient(135deg, #0469b1e6 0%, #0468B1 100%);
+  }
+
+/* Meshy soft glow */
+.bg-gradient-mesh {
+  background:
+    radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(6, 182, 212, 0.15) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(16, 185, 129, 0.15) 0px, transparent 50%);
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+.dark .glass {
+  background: rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+.glass:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+.dark .glass:hover {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Text effects & glows */
+.text-gradient {
+  background-image: linear-gradient(135deg, #0d9488 0%, #06b6d4 50%, #a855f7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.shadow-glow-primary { box-shadow: 0 0 25px rgba(16, 185, 129, 0.35); }
+.shadow-glow-secondary { box-shadow: 0 0 25px rgba(168, 85, 247, 0.35); }
+
+/* Transitions */
+.transition-all-smooth { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+.transition-transform-smooth { transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: rgb(var(--card-bg)); }
+.dark ::-webkit-scrollbar-track { background: rgb(var(--page-bg)); }
+::-webkit-scrollbar-thumb {
+  background: #d1d5db; border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover { background: #cbd5e1; }
+.dark ::-webkit-scrollbar-thumb { background: #475569; }
+.dark ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+
+/* Utility enhancements */
+.container { margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; }
+@media (min-width: 768px) { .container { padding-left: 2rem; padding-right: 2rem; } }
+@media (min-width: 1024px) { .container { padding-left: 4rem; padding-right: 4rem; } }
+
+.text-balance { text-wrap: balance; }
+.text-pretty { text-wrap: pretty; }
+
+/* Light mode — bright gradient */
+.btn-eco {
+  background: linear-gradient(135deg, #66bcc9 0%, #638dea 100%);
+  transition: all 0.3s ease-in-out;
+  color: hsl(220, 69%, 97%);
+}
+
+/* Light mode hover */
+.btn-eco:hover {
+  background: linear-gradient(135deg, #5caab8 0%, #4f7fde 100%);
+}
+
+/* Dark mode — darker gradient */
+.dark .btn-eco {
+  background: linear-gradient(135deg, #10b981 0%, #0d9488 100%);
+  transition: all 0.3s ease-in-out;
+  color: rgb(249, 249, 249);
+}
+
+.dark .btn-eco:hover {
+  background: linear-gradient(135deg, #4aa883 0%, #76bd9c 100%);
+}
+
+.transition-smooth {
+  transition: all 0.3s ease-in-out;
+}
+
+.eco-modal-panel {
+  background-color: #f8fafc !important;   /* light mode */
+  color: #1e293b !important;              /* dark text */
+  border-radius: 16px;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 1rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.dark .eco-modal-panel {
+  background-color: #111827 !important;   /* dark mode panel */
+  color: #f1f5f9 !important;              /* bright text */
+  border-color: rgba(255,255,255,0.2);
+}

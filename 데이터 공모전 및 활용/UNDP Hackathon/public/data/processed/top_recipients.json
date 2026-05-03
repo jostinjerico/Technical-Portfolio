@@ -1,0 +1,202 @@
+[
+  {
+    "recipientName": "Bilateral, unspecified",
+    "integrated": 8449,
+    "genderOnly": 41847,
+    "climateOnly": 12909,
+    "neither": 0,
+    "totalFunding": 123825.22,
+    "totalProjects": 63205,
+    "integratedShare": 0.1337
+  },
+  {
+    "recipientName": "India",
+    "integrated": 2586,
+    "genderOnly": 10567,
+    "climateOnly": 3250,
+    "neither": 0,
+    "totalFunding": 66846.87,
+    "totalProjects": 16403,
+    "integratedShare": 0.1577
+  },
+  {
+    "recipientName": "Bangladesh",
+    "integrated": 1668,
+    "genderOnly": 6744,
+    "climateOnly": 943,
+    "neither": 0,
+    "totalFunding": 42664.02,
+    "totalProjects": 9355,
+    "integratedShare": 0.1783
+  },
+  {
+    "recipientName": "Indonesia",
+    "integrated": 1182,
+    "genderOnly": 4097,
+    "climateOnly": 1944,
+    "neither": 0,
+    "totalFunding": 32855.12,
+    "totalProjects": 7223,
+    "integratedShare": 0.1636
+  },
+  {
+    "recipientName": "T\u00fcrkiye",
+    "integrated": 232,
+    "genderOnly": 2536,
+    "climateOnly": 893,
+    "neither": 0,
+    "totalFunding": 29613.69,
+    "totalProjects": 3661,
+    "integratedShare": 0.0634
+  },
+  {
+    "recipientName": "Philippines",
+    "integrated": 1183,
+    "genderOnly": 3425,
+    "climateOnly": 927,
+    "neither": 0,
+    "totalFunding": 27172.54,
+    "totalProjects": 5535,
+    "integratedShare": 0.2137
+  },
+  {
+    "recipientName": "Africa, regional",
+    "integrated": 1566,
+    "genderOnly": 5334,
+    "climateOnly": 2072,
+    "neither": 0,
+    "totalFunding": 26361.99,
+    "totalProjects": 8972,
+    "integratedShare": 0.1745
+  },
+  {
+    "recipientName": "Afghanistan",
+    "integrated": 505,
+    "genderOnly": 5354,
+    "climateOnly": 314,
+    "neither": 0,
+    "totalFunding": 23586.72,
+    "totalProjects": 6173,
+    "integratedShare": 0.0818
+  },
+  {
+    "recipientName": "Pakistan",
+    "integrated": 789,
+    "genderOnly": 5250,
+    "climateOnly": 728,
+    "neither": 0,
+    "totalFunding": 21795.89,
+    "totalProjects": 6767,
+    "integratedShare": 0.1166
+  },
+  {
+    "recipientName": "South of Sahara, regional",
+    "integrated": 2127,
+    "genderOnly": 6270,
+    "climateOnly": 1958,
+    "neither": 0,
+    "totalFunding": 20891.47,
+    "totalProjects": 10355,
+    "integratedShare": 0.2054
+  },
+  {
+    "recipientName": "Ethiopia",
+    "integrated": 2566,
+    "genderOnly": 8234,
+    "climateOnly": 1153,
+    "neither": 0,
+    "totalFunding": 20801.25,
+    "totalProjects": 11953,
+    "integratedShare": 0.2147
+  },
+  {
+    "recipientName": "China",
+    "integrated": 559,
+    "genderOnly": 3760,
+    "climateOnly": 2902,
+    "neither": 0,
+    "totalFunding": 19074.77,
+    "totalProjects": 7221,
+    "integratedShare": 0.0774
+  },
+  {
+    "recipientName": "Ukraine",
+    "integrated": 257,
+    "genderOnly": 4456,
+    "climateOnly": 1078,
+    "neither": 0,
+    "totalFunding": 18795.87,
+    "totalProjects": 5791,
+    "integratedShare": 0.0444
+  },
+  {
+    "recipientName": "Brazil",
+    "integrated": 1336,
+    "genderOnly": 3883,
+    "climateOnly": 1656,
+    "neither": 0,
+    "totalFunding": 16524.8,
+    "totalProjects": 6875,
+    "integratedShare": 0.1943
+  },
+  {
+    "recipientName": "Kenya",
+    "integrated": 2281,
+    "genderOnly": 6969,
+    "climateOnly": 1601,
+    "neither": 0,
+    "totalFunding": 16267.73,
+    "totalProjects": 10851,
+    "integratedShare": 0.2102
+  },
+  {
+    "recipientName": "Egypt",
+    "integrated": 383,
+    "genderOnly": 3377,
+    "climateOnly": 986,
+    "neither": 0,
+    "totalFunding": 15758.8,
+    "totalProjects": 4746,
+    "integratedShare": 0.0807
+  },
+  {
+    "recipientName": "Morocco",
+    "integrated": 673,
+    "genderOnly": 4700,
+    "climateOnly": 1005,
+    "neither": 0,
+    "totalFunding": 15511.18,
+    "totalProjects": 6378,
+    "integratedShare": 0.1055
+  },
+  {
+    "recipientName": "Viet Nam",
+    "integrated": 918,
+    "genderOnly": 3709,
+    "climateOnly": 1796,
+    "neither": 0,
+    "totalFunding": 14923.55,
+    "totalProjects": 6423,
+    "integratedShare": 0.1429
+  },
+  {
+    "recipientName": "Colombia",
+    "integrated": 1126,
+    "genderOnly": 7172,
+    "climateOnly": 1208,
+    "neither": 0,
+    "totalFunding": 14875.32,
+    "totalProjects": 9506,
+    "integratedShare": 0.1185
+  },
+  {
+    "recipientName": "Mexico",
+    "integrated": 467,
+    "genderOnly": 2668,
+    "climateOnly": 921,
+    "neither": 0,
+    "totalFunding": 14314.27,
+    "totalProjects": 4056,
+    "integratedShare": 0.1151
+  }
+]

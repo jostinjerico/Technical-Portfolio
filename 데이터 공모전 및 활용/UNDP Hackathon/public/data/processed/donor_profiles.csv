@@ -1,0 +1,119 @@
+donorName,integrated,genderOnly,climateOnly,neither,integratedFunding,genderOnlyFunding,climateOnlyFunding,neitherFunding,totalProjects,totalFunding,integratedShare,projectCount,archetype
+EU Institutions,9877,40851,8163,0,48321.71,102847.2,22369.12,0,58891,173538.03,0.1677,58891,Siloed Approach
+Germany,22052,56823,17985,0,35457.74,61430.59,61810.45,0,96860,158698.78,0.2277,96860,Siloed Approach
+Asian Development Bank,372,9551,423,0,4075.77,120468.39,7625.98,0,10346,132170.14,0.036,10346,Gender-First Integrator
+United States,4607,16105,4314,0,17364.96,55252.38,5967.39,0,25026,78584.73,0.1841,25026,Siloed Approach
+United Kingdom,4359,18129,6211,0,16738.13,38897.79,10159.67,0,28699,65795.59,0.1519,28699,Siloed Approach
+Japan,788,1680,2716,0,21222.85,13856.72,27329.32,0,5184,62408.89,0.152,5184,Siloed Approach
+France,1638,7117,3323,0,12703.7,10914.67,25951.98,0,12078,49570.35,0.1356,12078,Siloed Approach
+Inter-American Development Bank,0,2618,0,0,0.0,48039.25,0.0,0,2618,48039.25,0.0,2618,Gender-First Integrator
+International Development Association,0,9864,0,0,0.0,47182.36,0.0,0,9864,47182.36,0.0,9864,Gender-First Integrator
+International Bank for Reconstruction and Development,0,1995,0,0,0.0,30327.33,0.0,0,1995,30327.33,0.0,1995,Gender-First Integrator
+European Bank for Reconstruction and Development,46,593,1222,0,2241.84,14696.75,10795.66,0,1861,27734.25,0.0247,1861,Siloed Approach
+Sweden,8849,28427,2359,0,6426.64,18018.67,1492.33,0,39635,25937.64,0.2233,39635,Gender-First Integrator
+Canada,1736,14297,766,0,4253.84,20662.93,516.93,0,16799,25433.7,0.1033,16799,Gender-First Integrator
+Netherlands,1694,6317,1084,0,6994.72,12495.59,2609.99,0,9095,22100.3,0.1863,9095,Siloed Approach
+Norway,1914,14317,4628,0,1319.82,9773.77,6842.92,0,20859,17936.51,0.0918,20859,Siloed Approach
+Australia,738,2614,825,0,3232.69,8375.73,3016.82,0,4177,14625.24,0.1767,4177,Siloed Approach
+Korea,617,4456,3283,0,1889.69,4150.15,6251.06,0,8356,12290.9,0.0738,8356,Siloed Approach
+Switzerland,4471,22111,5023,0,2224.54,7373.23,2031.1,0,31605,11628.87,0.1415,31605,Siloed Approach
+Denmark,966,2770,1066,0,2724.45,5134.48,1548.82,0,4802,9407.75,0.2012,4802,Siloed Approach
+Belgium,2209,3833,1336,0,2640.67,3433.53,846.5,0,7378,6920.7,0.2994,7378,Siloed Approach
+Italy,1816,8124,3052,0,1245.38,3769.51,1638.95,0,12992,6653.84,0.1398,12992,Siloed Approach
+IMF Resilience and Sustainability Trust,0,0,170,0,0.0,0.0,6511.92,0,170,6511.92,0.0,170,Climate Specialist
+UNICEF,0,22218,0,0,0.0,5549.28,0.0,0,22218,5549.28,0.0,22218,Gender-First Integrator
+Bill & Melinda Gates Foundation,196,3201,275,0,375.28,4009.41,340.4,0,3672,4725.09,0.0534,3672,Gender-First Integrator
+Finland,1793,7685,1377,0,970.65,2650.97,955.05,0,10855,4576.67,0.1652,10855,Gender-First Integrator
+Spain,7631,44022,3835,0,724.64,3430.19,342.95,0,55488,4497.78,0.1375,55488,Gender-First Integrator
+United Arab Emirates,12,1784,302,0,11.36,2943.03,785.73,0,2098,3740.12,0.0057,2098,Gender-First Integrator
+Ireland,546,2152,226,0,1480.21,1896.96,91.86,0,2924,3469.03,0.1867,2924,Gender-First Integrator
+Austria,945,3969,1836,0,403.11,1101.99,1664.41,0,6750,3169.51,0.14,6750,Siloed Approach
+New Zealand,360,3107,645,0,371.84,2072.19,468.03,0,4112,2912.06,0.0875,4112,Gender-First Integrator
+Central Emergency Response Fund,0,1369,0,0,0.0,2488.9,0.0,0,1369,2488.9,0.0,1369,Gender-First Integrator
+Green Climate Fund,0,175,0,0,0.0,2229.74,0.0,0,175,2229.74,0.0,175,Gender-First Integrator
+Central American Bank for Economic Integration,0,42,0,0,0.0,2089.77,0.0,0,42,2089.77,0.0,42,Gender-First Integrator
+Mastercard Foundation,15,210,49,0,391.9,1015.02,232.59,0,274,1639.51,0.0547,274,Gender-First Integrator
+Global Environment Facility,347,1433,611,0,119.41,810.78,404.53,0,2391,1334.72,0.1451,2391,Siloed Approach
+Climate Investment Funds,0,27,259,0,0.0,9.48,1313.4,0,286,1322.88,0.0,286,Climate Specialist
+Children's Investment Fund Foundation,6,813,828,0,3.15,503.85,727.73,0,1647,1234.73,0.0036,1647,Siloed Approach
+UNDP,0,6268,0,0,0.0,1197.25,0.0,0,6268,1197.25,0.0,6268,Gender-First Integrator
+UN Peacebuilding Fund,0,1469,0,0,0.0,1006.63,0.0,0,1469,1006.63,0.0,1469,Gender-First Integrator
+Luxembourg,871,2830,224,0,270.04,664.76,39.18,0,3925,973.98,0.2219,3925,Gender-First Integrator
+Food and Agriculture Organisation,1336,1404,1665,0,96.75,136.71,620.08,0,4405,853.54,0.3033,4405,Sequential Builder
+Council of Europe Development Bank,0,0,28,0,0.0,0.0,817.89,0,28,817.89,0.0,28,Climate Specialist
+Private Infrastructure Development Group,34,17,226,0,141.03,106.88,559.54,0,277,807.45,0.1227,277,Climate Specialist
+IKEA Foundation,25,13,224,0,79.73,9.37,637.68,0,262,726.78,0.0954,262,Climate Specialist
+William and Flora Hewlett Foundation,11,505,470,0,10.81,243.23,446.3,0,986,700.34,0.0112,986,Siloed Approach
+International Labour Organisation,15,12100,4,0,0.57,644.4,1.49,0,12119,646.46,0.0012,12119,Gender-First Integrator
+Adaptation Fund,86,0,273,0,167.11,0.0,444.69,0,359,611.8,0.2396,359,Climate Specialist
+Dutch Postcode Lottery,44,75,67,0,124.77,167.12,239.51,0,186,531.4,0.2366,186,Siloed Approach
+David and Lucile Packard Foundation,11,490,318,0,2.21,176.09,332.85,0,819,511.15,0.0134,819,Siloed Approach
+Arab Fund (AFESD),7,111,99,0,9.5,252.21,234.18,0,217,495.89,0.0323,217,Siloed Approach
+Portugal,68,996,269,0,7.59,415.64,65.81,0,1333,489.04,0.051,1333,Gender-First Integrator
+Ford Foundation,27,1531,244,0,5.18,390.17,78.0,0,1802,473.35,0.015,1802,Gender-First Integrator
+Rockefeller Foundation,11,32,223,0,44.1,21.85,349.18,0,266,415.13,0.0414,266,Climate Specialist
+Nordic Development Fund,275,0,18,0,393.03,0.0,17.27,0,293,410.3,0.9386,293,Natural Integrator
+Hungary,24,572,180,0,0.95,326.66,46.16,0,776,373.77,0.0309,776,Gender-First Integrator
+Oak Foundation,5,157,83,0,74.03,172.4,121.19,0,245,367.62,0.0204,245,Siloed Approach
+Iceland,212,681,97,0,110.85,210.87,21.53,0,990,343.25,0.2141,990,Siloed Approach
+UN Women,0,329,0,0,0.0,274.86,0.0,0,329,274.86,0.0,329,Gender-First Integrator
+John D. and Catherine T. MacArthur Foundation,2,217,257,0,0.5,77.21,185.23,0,476,262.94,0.0042,476,Siloed Approach
+Czechia,138,929,426,0,20.49,159.12,49.46,0,1493,229.07,0.0924,1493,Siloed Approach
+Wellcome Trust,4,88,73,0,0.93,126.32,99.43,0,165,226.68,0.0242,165,Siloed Approach
+Open Society Foundations,12,883,165,0,5.93,138.7,39.05,0,1060,183.68,0.0113,1060,Gender-First Integrator
+Swedish Postcode Lottery,29,69,20,0,50.65,103.8,27.39,0,118,181.84,0.2458,118,Siloed Approach
+Saudi Arabia,0,67,0,0,0.0,178.76,0.0,0,67,178.76,0.0,67,Gender-First Integrator
+CGIAR,28,1,35,0,58.74,1.82,102.78,0,64,163.34,0.4375,64,Sequential Builder
+People's Postcode Lottery,14,34,13,0,87.68,53.98,14.54,0,61,156.2,0.2295,61,Siloed Approach
+Charity Projects Ltd (Comic Relief),8,557,3,0,0.78,154.93,0.2,0,568,155.91,0.0141,568,Gender-First Integrator
+Romania,8,441,22,0,0.23,150.21,0.7,0,471,151.14,0.017,471,Gender-First Integrator
+UNFPA,2,16,0,0,23.93,117.43,0.0,0,18,141.36,0.1111,18,Gender-First Integrator
+Greece,16,675,11,0,0.75,119.44,0.92,0,702,121.11,0.0228,702,Gender-First Integrator
+OPEC Fund for International Development,0,4,8,0,0.0,36.93,81.53,0,12,118.46,0.0,12,Siloed Approach
+Joint Sustainable Development Goals Fund,0,221,0,0,0.0,111.96,0.0,0,221,111.96,0.0,221,Gender-First Integrator
+Conrad N. Hilton Foundation,2,169,1,0,0.07,106.08,0.87,0,172,107.02,0.0116,172,Gender-First Integrator
+Poland,97,462,307,0,10.12,37.97,24.08,0,866,72.17,0.112,866,Siloed Approach
+Slovak Republic,51,445,118,0,3.91,59.0,6.94,0,614,69.85,0.0831,614,Gender-First Integrator
+Laudes Foundation,11,61,77,0,7.45,12.3,43.92,0,149,63.67,0.0738,149,Siloed Approach
+Arcus Foundation,0,526,0,0,0.0,57.76,0.0,0,526,57.76,0.0,526,Gender-First Integrator
+MAVA Foundation,0,0,71,0,0.0,0.0,56.96,0,71,56.96,0.0,71,Climate Specialist
+UBS Optimus Foundation,0,58,45,0,0.0,28.19,26.76,0,103,54.95,0.0,103,Siloed Approach
+Qatar,0,13,21,0,0.0,29.96,23.68,0,34,53.64,0.0,34,Siloed Approach
+Slovenia,42,221,83,0,8.79,19.05,15.67,0,346,43.51,0.1214,346,Siloed Approach
+Gordon and Betty Moore Foundation,0,0,31,0,0.0,0.0,41.38,0,31,41.38,0.0,31,Climate Specialist
+UN Capital Development Fund,0,78,1,0,0.0,37.25,0.0,0,79,37.25,0.0,79,Gender-First Integrator
+Fondation Botnar,1,8,0,0,0.41,35.07,0.0,0,9,35.48,0.1111,9,Gender-First Integrator
+Lithuania,40,337,188,0,0.66,17.95,10.31,0,565,28.92,0.0708,565,Siloed Approach
+Global Green Growth Institute,35,132,9,0,15.59,10.31,2.44,0,176,28.34,0.1989,176,Gender-First Integrator
+World Tourism Organisation,0,61,1,0,0.0,25.79,0.66,0,62,26.45,0.0,62,Gender-First Integrator
+World Diabetes Foundation,0,39,1,0,0.0,20.11,1.58,0,40,21.69,0.0,40,Gender-First Integrator
+H&M Foundation,0,28,6,0,0.0,9.8,8.96,0,34,18.76,0.0,34,Gender-First Integrator
+Monaco,23,96,40,0,3.32,9.57,5.83,0,159,18.72,0.1447,159,Siloed Approach
+International Investment Bank,0,1,0,0,0.0,15.0,0.0,0,1,15.0,0.0,1,Gender-First Integrator
+WFP,0,27,0,0,0.0,13.55,0.0,0,27,13.55,0.0,27,Gender-First Integrator
+COVID-19 Response and Recovery Multi-Partner Trust Fund,0,77,0,0,0.0,13.45,0.0,0,77,13.45,0.0,77,Gender-First Integrator
+World Health Organisation,0,0,1,0,0.0,0.0,12.63,0,1,12.63,0.0,1,Climate Specialist
+MetLife Foundation,0,28,0,0,0.0,12.46,0.0,0,28,12.46,0.0,28,Gender-First Integrator
+UNEP,0,0,1,0,0.0,0.0,12.04,0,1,12.04,0.0,1,Climate Specialist
+Islamic Development Bank,0,13,0,0,0.0,11.77,0.0,0,13,11.77,0.0,13,Gender-First Integrator
+Norwegian Postcode Lottery,0,0,4,0,0.0,0.0,11.25,0,4,11.25,0.0,4,Climate Specialist
+IFAD,0,1,0,0,0.0,11.0,0.0,0,1,11.0,0.0,1,Gender-First Integrator
+Estonia,2,242,18,0,0.23,9.84,0.9,0,262,10.97,0.0076,262,Gender-First Integrator
+McKnight Foundation,24,1,73,0,2.64,0.12,8.15,0,98,10.91,0.2449,98,Climate Specialist
+Liechtenstein,3,15,30,0,0.57,2.26,7.62,0,48,10.45,0.0625,48,Siloed Approach
+International Centre for Genetic Engineering and Biotechnology,0,14,43,0,0.0,2.31,3.12,0,57,5.43,0.0,57,Climate Specialist
+Arcadia Fund,0,1,1,0,0.0,3.5,1.89,0,2,5.39,0.0,2,Siloed Approach
+WTO - International Trade Centre,0,30,0,0,0.0,4.81,0.0,0,30,4.81,0.0,30,Gender-First Integrator
+African Development Fund,0,19,0,0,0.0,4.35,0.0,0,19,4.35,0.0,19,Gender-First Integrator
+Kuwait,0,0,5,0,0.0,0.0,3.97,0,5,3.97,0.0,5,Climate Specialist
+Gatsby Charitable Foundation,0,0,1,0,0.0,0.0,3.72,0,1,3.72,0.0,1,Climate Specialist
+Latvia,2,71,11,0,0.05,2.72,0.25,0,84,3.02,0.0238,84,Gender-First Integrator
+Michael & Susan Dell Foundation,0,15,0,0,0.0,2.73,0.0,0,15,2.73,0.0,15,Gender-First Integrator
+United Nations Industrial Development Organization,0,57,0,0,0.0,2.56,0.0,0,57,2.56,0.0,57,Gender-First Integrator
+German Postcode Lottery,3,8,8,0,0.33,1.04,1.0,0,19,2.37,0.1579,19,Siloed Approach
+UNAIDS,0,33,0,0,0.0,0.55,0.0,0,33,0.55,0.0,33,Gender-First Integrator
+UN Economic and Social Commission for Western Asia,0,0,10,0,0.0,0.0,0.36,0,10,0.36,0.0,10,Climate Specialist
+Arab Bank for Economic Development in Africa,0,5,0,0,0.0,0.22,0.0,0,5,0.22,0.0,5,Gender-First Integrator
+Jacobs Foundation,0,2,0,0,0.0,0.17,0.0,0,2,0.17,0.0,2,Gender-First Integrator
+Carnegie Corporation of New York,0,1,0,0,0.0,0.1,0.0,0,1,0.1,0.0,1,Gender-First Integrator
+United Nations Conference on Trade and Development,0,1,0,0,0.0,0.06,0.0,0,1,0.06,0.0,1,Gender-First Integrator
