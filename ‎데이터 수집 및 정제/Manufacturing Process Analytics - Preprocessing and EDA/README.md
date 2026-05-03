@@ -15,7 +15,7 @@ This project presents an exploratory data analysis (EDA) and data preparation pi
 - Features: Machine parameters (temperature, pressure, cycle time, etc.)  
 - Target: Product quality (Normal vs Outlier)  
 
-The dataset includes sensor readings and operational variables collected during injection molding cycles :contentReference[oaicite:0]{index=0}  
+The dataset includes sensor readings and operational variables collected during injection molding cycles
 
 ## 4. Data Processing
 - Removed low-sample product groups for statistical reliability  
