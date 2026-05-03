@@ -12,12 +12,12 @@ This repository presents projects focused on data collection, structuring, and p
 ## Project List
 The repository includes the following projects:
 
-### Manufacturing Chatbot using AI Agent
+### [Manufacturing Chatbot using AI Agent](../데이터%20수집%20및%20정제/Manufacturing%20Chatbot%20using%20AI%20Agent)
 - Collected and structured domain knowledge into JSON-based datasets
 - Performed data preprocessing and transformation for AI agent retrieval
 - Built vector-based indexing to enable efficient context-aware data access
 
-### Manufacturing Process Analytics – Preprocessing and EDA
+### [Manufacturing Process Analytics – Preprocessing and EDA](../데이터%20수집%20및%20정제/Manufacturing%20Process%20Analytics%20-%20Preprocessing%20and%20EDA)
 - Collected and cleaned manufacturing process data to ensure data quality
 - Applied feature engineering and statistical labeling for defect detection
 - Conducted exploratory analysis to derive insights on process behavio
