@@ -39,7 +39,5 @@ All projects are designed to support reproducibility through:
 
 Each project can be executed independently and includes the necessary steps for data loading, analysis, and visualization.
 
----
-
 ## Tech Stack
 Python, Pandas, NumPy, Matplotlib, Seaborn, Visualization Libraries
