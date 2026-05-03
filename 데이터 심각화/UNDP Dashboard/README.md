@@ -1,4 +1,4 @@
-# EcoEquity: UNDP Gender × Climate Data Dashboard
+# EcoEquity: UNDP Gender × Climate Data Dashboard (UNDP Dashboard)
 
 ## 1. Overview
 This project presents a reproducible data analytics pipeline and dashboard for analyzing gender–climate integration using Official Development Assistance (ODA) data. The system focuses on data processing, statistical analysis, and visualization of large-scale development datasets.
