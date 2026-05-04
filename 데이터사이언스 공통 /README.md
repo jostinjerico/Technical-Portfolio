@@ -17,7 +17,7 @@ The repository includes the following projects:
 - Implemented data preprocessing and transformation pipelines for AI agent retrieval  
 - Built vector-based indexing for efficient context-aware data access  
 
-### [Manufacturing Process Analytics – Preprocessing and EDA](../데이터%20심화/Manufacturing%20Process%20Analytics%20-%20Preprocessing%20and%20EDA)
+### [Manufacturing Process Analytics – Preprocessing and EDA](../데이터%20심각화/Manufacturing%20Process%20Analytics%20-%20Preprocessing%20and%20EDA)
 - Performed data cleaning and preprocessing to ensure data quality  
 - Applied feature engineering and statistical transformations for defect analysis  
 - Conducted exploratory analysis to support data understanding  
