@@ -1,0 +1,70 @@
+{
+    "number of rules": 6,
+    "accuracy": 1.0,
+    "f-measure": 1.0,
+    "sample distribution details": "The first element in the list represent class 0, and the second element in the list represent class 1",
+    "classes": "[0,1]",
+    "details": "The measures provided in each rule are computed using the training data. Information of training data can be found in the data_sheet_card.",
+    "rules": [
+        {
+            "rule_id": 1,
+            "Coverage of the rule": "0.2457",
+            "Confidence of the rule": "1.0000",
+            "Support of the rule": "0.2457",
+            "Sample distribution of the rule": "[0,199]",
+            "Body of the rule": "(Dosage_time_max ≥ 3.1) AND (Material_cushion_median < 1.0) AND (Mould_heating_circuit_3_std ≥ 0.1) AND (Screw_volume_std ≥ 1.1)",
+            "is default rule": false,
+            "Head of the rule": 1
+        },
+        {
+            "rule_id": 2,
+            "Coverage of the rule": "0.0481",
+            "Confidence of the rule": "1.0000",
+            "Support of the rule": "0.0481",
+            "Sample distribution of the rule": "[0,39]",
+            "Body of the rule": "(Dosage_time_max ≥ 3.1) AND (Material_cushion_median < 1.0) AND (Opening_force_median < -340.2)",
+            "is default rule": false,
+            "Head of the rule": 1
+        },
+        {
+            "rule_id": 3,
+            "Coverage of the rule": "0.0086",
+            "Confidence of the rule": "1.0000",
+            "Support of the rule": "0.0086",
+            "Sample distribution of the rule": "[0,7]",
+            "Body of the rule": "(Material_cushion_median < 1.0) AND (Maximum_injection_pressure_max < 1728.7) AND (Mould_heating_circuit_3_std ≥ 0.1) AND (Screw_volume_std ≥ 1.1)",
+            "is default rule": false,
+            "Head of the rule": 1
+        },
+        {
+            "rule_id": 4,
+            "Coverage of the rule": "0.0074",
+            "Confidence of the rule": "1.0000",
+            "Support of the rule": "0.0074",
+            "Sample distribution of the rule": "[0,6]",
+            "Body of the rule": "(Material_cushion_median < 1.0) AND (Opening_force_median < -358.2) AND (Opening_force_median ≥ -359.9)",
+            "is default rule": false,
+            "Head of the rule": 1
+        },
+        {
+            "rule_id": 5,
+            "Coverage of the rule": "0.0062",
+            "Confidence of the rule": "1.0000",
+            "Support of the rule": "0.0062",
+            "Sample distribution of the rule": "[0,5]",
+            "Body of the rule": "(Material_cushion_median < 0.9) AND (Maximum_injection_pressure_max < 1728.7)",
+            "is default rule": false,
+            "Head of the rule": 1
+        },
+        {
+            "rule_id": 6,
+            "Coverage of the rule": "0.6840",
+            "Confidence of the rule": "1.0000",
+            "Support of the rule": "0.6840",
+            "Sample distribution of the rule": "[554,0]",
+            "Body of the rule": "()",
+            "is default rule": true,
+            "Head of the rule": 0
+        }
+    ]
+}
