@@ -22,7 +22,7 @@ The repository includes the following projects:
 - Multi-level analysis (donor, sector, recipient)  
 - Visualization of funding patterns and integration indicators  
 
-### [Manufacturing Process Analytics – EDA and Defect Detection](../데이터%20활용%20및%20분석/Manufacturing%20Process%20Analytics%20-%20Preprocessing%20and%20EDA)
+### [Manufacturing Process Analytics – EDA and Defect Detection](./Manufacturing%20Process%20Analytics%20-%20Preprocessing%20and%20EDA)
 - Exploratory data analysis of manufacturing process data  
 - Statistical defect detection using threshold-based labeling  
 - Feature impact analysis and process parameter evaluation  
