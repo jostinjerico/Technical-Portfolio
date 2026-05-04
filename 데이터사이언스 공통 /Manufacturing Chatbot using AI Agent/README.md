@@ -1,10 +1,10 @@
-# Manufacturing Chatbot using AI Agents: Data Collection and Structuring
+# Manufacturing Chatbot using AI Agents: Data Structuring and Processing
 
 ## Overview
-This project presents a structured data collection and processing pipeline for a manufacturing chatbot prototype. It focuses on transforming domain-specific knowledge into machine-readable formats to support retrieval-based reasoning using AI agents.
+This project presents a data structuring and processing pipeline for a manufacturing chatbot prototype. It focuses on transforming domain-specific knowledge into machine-readable formats to support retrieval-based reasoning using AI agents.
 
 ## Objective
-- Collect and structure manufacturing domain data  
+- Structure and organize manufacturing domain data  
 - Standardize data representation for AI-based reasoning  
 - Enable efficient retrieval through vector-based indexing  
 - Ensure data usability and reproducibility  
@@ -17,29 +17,27 @@ The dataset consists of structured JSON-based context cards:
 - Profile (user roles and expertise levels)  
 - Domain/Data descriptions  
 
-Example: Rule-based dataset with defined thresholds and classification outputs 
-
 ## Data Processing
-- Structured domain knowledge into standardized JSON schema  
-- Converted data into text for embedding  
-- Indexed into vector database (ChromaDB)  
-- Applied semantic embeddings for retrieval  
+- Structured domain knowledge into standardized JSON schemas  
+- Transformed structured data into text representations for embedding  
+- Indexed data into a vector database (ChromaDB)  
+- Generated semantic embeddings for retrieval  
 
-Context elements are stored with metadata for granular and full-level access 
+Context elements are stored with metadata for both granular and full-context access  
 
 ## Data Utilization
 - Integrated into a Retrieval-Augmented Generation (RAG) pipeline  
-- Supports context-aware query answering  
-- Adapts responses based on user roles (Operator, Manager, Data Scientist)
+- Enables context-aware query answering  
+- Adapts responses based on user roles (Operator, Manager, Data Scientist)  
 
 ## Reproducibility
-- Explicit JSON dataset and schema  
-- Defined data loading and indexing pipeline  
-- Standard embedding and retrieval process  
+- Explicit JSON schema and structured dataset  
+- Defined data transformation and indexing pipeline  
+- Standardized embedding and retrieval process  
 - End-to-end executable notebook  
 
 ## How to Run
-Open the notebook in your preferred environment (Colab, Jupyter, or VS Code) and execute all cells sequentially.
+Open the notebook in your preferred environment (Google Colab, Jupyter Notebook, or Visual Studio Code) and execute all cells sequentially.
 
 ## Tech Stack
-Python, JSON, ChromaDB, SentenceTransformers, OpenAI API, Agno
+Python, JSON, ChromaDB, SentenceTransformers, OpenAI API
