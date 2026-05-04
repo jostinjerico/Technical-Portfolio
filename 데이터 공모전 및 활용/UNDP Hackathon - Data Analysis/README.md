@@ -35,7 +35,7 @@ This project develops a reproducible data analytics pipeline to analyze genderâ€
 - Clustering and time-series modeling  
 - Feature importance and pattern discovery  
 
-### ğŸ“ˆ Time-Series Analysis
+### Time-Series Analysis
 ![Time Series](./results/time_series_analysis.png)
 
 ## 6. Results 
@@ -43,10 +43,10 @@ This project develops a reproducible data analytics pipeline to analyze genderâ€
 - Positive spillover: gender funding increases future climate funding  
 - Integration signals exist but are underrepresented in structured data  
 
-### ğŸŒ Cross-Sector Relationships
+### Cross-Sector Relationships
 ![Cross Sector](./results/Cross-Sector.png)
 
-### ğŸ”„ Spillover Effects
+### Spillover Effects
 ![Spillover](./results/Spillover.png)
 
 ## 7. Reproducibility
