@@ -1,6 +1,6 @@
 # Technical-Portfolio
 
-##Introduction
+## Introduction
 
 Name : 저스틴 (Jostin Jerico Rosal)
 
@@ -20,7 +20,6 @@ Email : jostinjerico@gmail.com
 
 ## 학위논문
 TRACE: Transparent Agentic Framework for Natural Language Explanations in Smart Manufacturing
-
 
 ## ※ 심사항목
 | No. | 심사항목 | 내용 | Link |
