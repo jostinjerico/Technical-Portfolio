@@ -12,7 +12,7 @@ This repository presents projects focused on data structuring and preprocessing 
 ## Project List
 The repository includes the following projects:
 
-### [Manufacturing Chatbot using AI Agent](../데이터%20수집%20및%20정제/Manufacturing%20Chatbot%20using%20AI%20Agent)
+### [Manufacturing Chatbot using AI Agent](./데이터사이언스%20공통%20/Manufacturing%20Chatbot%20using%20AI%20Agent)
 - Structured manufacturing domain knowledge into JSON-based datasets  
 - Implemented data preprocessing and transformation pipelines for AI agent retrieval  
 - Built vector-based indexing for efficient context-aware data access  
@@ -22,7 +22,7 @@ The repository includes the following projects:
 - Applied feature engineering and statistical transformations for defect analysis  
 - Conducted exploratory analysis to support data understanding  
 
-### [Pitaka (Proof-of-Concept)](../데이터%20수집%20및%20정제/pitaka)
+### [Pitaka (Proof-of-Concept)](./데이터사이언스%20공통%20/pitaka)
 - Implemented a Python-based fraud detection system using Isolation Forest  
 - Developed data processing logic for transaction evaluation  g  
 
