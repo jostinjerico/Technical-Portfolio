@@ -28,7 +28,15 @@ Context elements are stored with metadata for both granular and full-context acc
 ## Data Utilization
 - Integrated into a Retrieval-Augmented Generation (RAG) pipeline  
 - Enables context-aware query answering  
-- Adapts responses based on user roles (Operator, Manager, Data Scientist)  
+- Adapts responses based on user roles (Operator, Manager, Data Scientist)
+
+## ChatBot Output
+
+### Chatbot Interface Example
+![Chatbot Example 1](./images/chatbot1.png)
+
+### Context Retrieval Example
+![Chatbot Example 2](./images/Chatbot2.png)
 
 ## Reproducibility
 - Explicit JSON schema and structured dataset  
