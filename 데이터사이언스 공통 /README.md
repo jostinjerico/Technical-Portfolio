@@ -22,7 +22,7 @@ The repository includes the following projects:
 - Applied feature engineering and statistical transformations for defect analysis  
 - Conducted exploratory analysis to support data understanding  
 
-### Pitaka (Proof-of-Concept)
+### [Pitaka (Proof-of-Concept)](../데이터%20수집%20및%20정제/pitaka)
 - Implemented a Python-based fraud detection system using Isolation Forest  
 - Developed data processing logic for transaction evaluation  g  
 
