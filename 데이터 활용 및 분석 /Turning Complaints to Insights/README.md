@@ -22,13 +22,16 @@ This project develops a reproducible machine learning pipeline to analyze financ
 - Class imbalance handled using upsampling  
 - Time-based train-test split (80/20) :contentReference[oaicite:1]{index=1}  
 
-
 ## 5. Models
 - Logistic Regression  
 - Random Forest  
 - XGBoost  
 
 Pipeline includes preprocessing + model training with time-series cross-validation.
+
+### 📊 Model Performance
+![5-Fold CV](./images/5-fold-CV.png)
+![AUC Comparison](./images/5-fold-CV-AUC.png)
 
 ## 6. Explainable AI (XAI)
 - SHAP used for feature-level interpretability  
@@ -37,15 +40,21 @@ Pipeline includes preprocessing + model training with time-series cross-validati
   - Loan servicing problems  
   - Complaint-specific keywords  
 
+### 🔎 SHAP Analysis
+![SHAP](./images/SHAP.png)
+
 ## 7. Topic Analysis
 - LDA and BERTopic used for theme extraction  
-- Reveals dominant complaint categories and patterns 
+- Reveals dominant complaint categories and patterns  
+
+### 🧠 Topic Modeling
+![Top BERTopic](./images/Top10%20Bert%20Topics.png)
 
 ## 8. Results 
 - Models demonstrate moderate predictive performance  
 - Dispute prediction is influenced more by complaint content than sentiment  
-- XAI confirms consistent feature importance across models 
-
+- XAI confirms consistent feature importance across models
+  
 ## 9. Reproducibility
 - Fixed random seeds  
 - Defined preprocessing and feature engineering pipeline  
